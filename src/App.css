@@ -1,0 +1,25 @@
+.user__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17em, 1fr));
+    justify-content: center;
+    gap: 1.5em 2em;
+}
+
+.header__app{
+    padding: 1em 1em 1em 0;
+}
+
+.btn__open-form{
+    background-color: #11ABC0;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding-bottom: 0.2em;
+    margin-top: 0.8em;
+    padding: 1em;
+    border-radius: 0.4em; 
+}
+.btn__open-form:hover,.btn__open-form:active{
+    background-color: #064a53;
+    color: aliceblue;
+}
